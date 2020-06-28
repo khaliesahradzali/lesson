@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta 
+          name="viewport"
+          content="width=device-width, initial-scale=1">
+    <title>lesson page</title>
+    <style>
+    
+        body{
+            margin: 0;
+            font-family: cursive, sans-serif;
+            background-color: #fffd94;
+        }
+
+        .topnav {
+            overflow:hidden;
+            background-color:orange;
+            background-image:url("5 kids.png");
+            background-repeat: no-repeat;
+            background-size: 200px 100px;
+            background-position: 150px 1px;
+            background-image:url("3 kids.png") no-repeat;
+            background-size: 200px 100px;
+            background-position: top-right;
+
+        }
+
+        .topnav a {
+            float: right;
+            color: black;
+            text-align: center;
+            padding: 5px 16px;
+            text-decoration:none;
+            font-size: 20px;
+            border-right: 1.5px solid black;
+        }
+
+        .topnav a:hover {
+            background-color: red;
+            color: white;
+        }
+        
+        .topnav-left {
+            float:left;
+
+        }
+
+        .lesson {
+            font-size: 18px;
+            color: white;
+            text-align: center;
+            float: right;
+            border-radius: 15px;
+            background: #16cc2c;
+            margin: 30px 50px;
+            padding: 5px 20px;
+            width: 100px;
+            height: 30px;
+            position: 150px 150px;
+            width:10%;
+        }
+
+        .infant {
+            color: green;
+            text-align: center;
+            float: right;
+            border-radius: 15px;
+            background: transparent;
+            margin-top: 30px;
+            margin-right: 15px;
+            padding: 5px 20px;
+            width: 100px;
+            height: 30px;
+            position: 150px 150px;
+            text-decoration: none;
+            border: 2px solid green
+        }
+
+        .toddler {
+            color: white;
+            text-align: center;
+            float: right;
+            border-radius: 15px;
+            background: violet;
+            padding: 5px 20px;
+            width: 100px;
+            height: 30px;
+            position: 150px 150px;
+            text-decoration: none;
+        }
+
+        .toddler:hover {
+            color: blue;
+            background-color: transparent;
+            border: 2px solid blue;
+        }
+
+        .preschool {
+            color: white;
+            text-align: center;
+            float: right;
+            border-radius: 15px;
+            background: violet;
+            margin-right: 15px;
+            padding: 5px 20px;
+            width: 100px;
+            height: 30px;
+            position: 150px 150px;
+            text-decoration: none;
+        }
+
+        .preschool:hover {
+            color: red;
+            background-color: transparent;
+            border: 2px solid red;
+        }
+
+        .content {
+            border-radius: 25px;
+            background: skyblue;
+            margin: 30px;
+            padding: 20px;
+            width: 800px;
+            height: 500px;
+            position: 150px 150px;
+        }
+
+        .text1-right {
+            font-size: 15px;
+            float:right;
+            width:60%;
+        }
+
+        .button1 {
+            font-family:cursive, sans-serif;
+            font-size: 20px;
+            border: none;
+            color: white;
+            border-radius:12px;
+            padding: 10px 20px;
+            background-color:#5498d1;
+        }
+
+        .button1:hover {
+            color: black;
+            background-color:#6bbcff;
+        }
+
+        .bottomnav {
+            overflow:hidden;
+            background-color: orange;
+            bottom:0;
+            margin-top: 40px;
+            padding: 20px;
+        }
+
+        .bottomnav a {
+            align: center;
+            margin-right: 40px;
+            color: black;
+            text-align: center;
+            text-decoration:none;
+            font-size: 20px;
+        }
+
+        .bottomnav a:hover {
+            color: white;
+        }
+
+        .bottomnav-right {
+            float: right;
+
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+<div class="topnav">
+    <a href="#contact" style="border:none">CONTACT US</a>
+    <a href="#about">ABOUT</a>
+    <a href="#lesson">LESSON</a>
+
+    <div class="topnav-left">
+        <a href="#home" style="border:none"><img src ="logo.png" style="positon:absolute; width:70px"></a>
+    </div>
+</div>
+
+<div>
+    <div class="lesson">LESSONS
+        <div>
+            <a href="#" class="infant">Infant</a>
+            <a href="#" class="toddler">Toddler</a>
+            <a href="#" class="preschool">Preschool</a>
+        </div>
+    </div>
+</div>
+
+<div class="content">
+    <iframe width="250" height="150" src="https://www.youtube.com/embed/KBPAI6qLW5o" allowfullscreen frameborder="0" style="margin:2px 10px 10px"></iframe>
+        <div class="text1-right">
+            <h1>Learn The Alphabets!</h1>
+                <button class="button1"><img src="triangle.png" style="width:15px"> start lesson </button>
+
+        </div>
+    <iframe width="250" height="150" src="https://www.youtube.com/embed/1VBW6rdvRks" allowfullscreen frameborder="0" style="margin:10px"></iframe>
+        <div class="text1-right">
+            <h1>Learn The Colors & Shapes!</h1>
+                <button class="button1"><img src="triangle.png" style="width:15px"> start lesson </button>
+        </div>
+    <iframe width="250" height="150" src="https://www.youtube.com/embed/GcsjhHhVunI" allowfullscreen frameborder="0" style="margin:10px"></iframe>
+    <div class="text1-right">
+        <h1>Learn The Numbers!</h1>
+        <button class="button1"><img src="triangle.png" style="width:15px"> start lesson </button>
+    </div>
+</div>
+
+<div class="bottomnav">
+    <a style="color:black">Follow us:    </a>
+    <a href="#"><img src="twt.png" style="width:30px">   @brightkids_</a>
+    <a href="#"><img src="fb.png" style="width:30px">   Bright Kids</a>
+    <a href="#"><img src="ig.png" style="width:30px">   @bright.kids</a>
+        <div class= "bottomnav-right" >
+            <a href="#" style="font-size:15px">
+                Level 3, Eastern Tower, Jalan Ampang 1, 50450, Kuala Lumpur</a>
+            <a><img src ="logo.png" style="width:50px"</a>
+        </div>
+</div>
+</body>
+</html>
